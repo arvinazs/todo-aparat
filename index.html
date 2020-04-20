@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JavaScript</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div id="modalFull" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-content__inner"></div>
+            </div>
+        </div>
+        <div class="container-todo">
+            <h1 class="todo-title">todos</h1>
+            <form class="form-todo">
+                <input autofocus type="text" placeholder="Add Todo" class="todo-input">
+                <input type="submit" value="Add" class="todo-addsubmit">
+            </form>
+            <ul class="todo-list list-todo"></ul>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
